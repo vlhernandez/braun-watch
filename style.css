@@ -86,13 +86,6 @@ li {
   padding-bottom: .25em;
 }
 
-.pin {
-  background: #FFFF33;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  z-index: 1;
-}
 
 .seconds,
 .minutes,
@@ -142,73 +135,23 @@ li {
 }
 
 
+.number-wrapper {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  border: 1px solid teal;
+}
+
+.pin {
+  background: #FFFF33;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
 .o-clock {
-  color: yellow;
+  color: white;
   font-size: 1.15em;
   list-style: none;
 }
-
-/*.twelve {
-  left: 192px;
-  top: 0;
-}
-
-.six {
-  left: 192px;
-  bottom: 0;
-}
-
-
-.one {
-  left: 280px;
-  top: 25px;
-}
-
-.five {
-  left: 280px;
-  bottom: 25px;
-}
-
-.eleven {
-  right: 280px;
-  top: 25px;
-}
-
-.seven {
-  right: 280px;
-  bottom: 25px;
-}
-
-
-
-.three {
-  left: 375px;
-  top: 175px;
-}
-
-.nine {
-  left: 20px;
-  bottom: 175px;
-}
-
-
-
-.two {
-  left: 350px;
-  top: 95px;
-}
-
-.four {
-  left: 350px;
-  bottom: 95px;
-}
-
-.eight {
-  right: 350px;
-  bottom: 95px;
-}
-
-.ten {
-  right: 350px;
-  top: 95px;
-}*/
