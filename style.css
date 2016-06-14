@@ -27,13 +27,12 @@ body {
 .bezel {
   background: #181818;
   border-radius: 50%;
-  height: 450px;
-  width: 450px;
+  height: 470px;
+  width: 470px;
 }
 
 ul {
   color: white;
-
 }
 
 li {
@@ -49,6 +48,7 @@ li {
 
 
 .clock-face {
+  border: solid red 1px;
   background: #000;
   border-radius: 50%;
   height: 400px;
@@ -64,6 +64,20 @@ li {
 
 .braun-a {
   font-size: 1.35em;
+}
+
+.pin {
+  background: #FFFF33;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.times {
+  color: white;
+  font-size: 1.15em;
+  list-style: none;
 }
 
 .date {
@@ -86,7 +100,9 @@ li {
   padding-bottom: .25em;
 }
 
-
+/*************************
+  clock hand movements
+*************************/
 .seconds,
 .minutes,
 .hours {
@@ -132,26 +148,4 @@ li {
 @keyframes spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
-
-
-.number-wrapper {
-  width: 400px;
-  height: 400px;
-  border-radius: 100%;
-  border: 1px solid teal;
-}
-
-.pin {
-  background: #FFFF33;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-.o-clock {
-  color: white;
-  font-size: 1.15em;
-  list-style: none;
 }
