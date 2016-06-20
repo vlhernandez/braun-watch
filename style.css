@@ -48,7 +48,7 @@ li {
 
 
 .clock-face {
-  border: solid red 1px;
+  border: solid rgb(34, 37,39) 1px;
   background: #000;
   border-radius: 50%;
   height: 400px;
